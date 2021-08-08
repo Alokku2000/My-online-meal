@@ -1,0 +1,91 @@
+/* nav bar  */
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+#navbar ul li a{
+    font-size: 0.7rem;
+    padding:4px 17px;
+}
+#logo{
+    padding: 2px 2px;
+    width: 100%;
+    /* margin: 0px 0px; */
+}
+ #logo_img{
+      width:10%;
+      align-self: center;
+      margin:3px 171px;
+} 
+/* home section  */
+.btn{  
+    width: 30%;
+    height: 8%;
+    margin: 10px;
+    border-radius: 25px;
+}
+                       /* services section  */
+#services{
+    height:900px;
+}
+.services{
+    flex-direction: column;
+}
+.h_headingg{
+    margin-top: 26px;
+    margin-bottom: -5px;
+    font-size: 1rem;
+}
+.box p{
+    padding: 5px;
+    font-size: 0.7rem;
+}
+.box{
+    width:90%;
+    height:386px;
+    margin:10px auto;
+    padding:10px;
+}
+                           /* clients section  */
+.h_heading_clients{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 3rem;
+}
+.clients-item{
+    display:flex;
+    width:72%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+                       /* contact part  */
+#contact{
+    position: relative;
+    margin-top: 0px;
+    height:522px;
+}
+.h1_heading{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.contact2{
+    width:70%;
+    padding: 16px;
+}
+.contact3 input,textarea{
+    width:100%;
+    padding: 7px;
+    margin: 19px 0px 1px 0px;
+}
+textarea{
+    height:68px;
+}
+.sum1{
+    padding: 10px;
+    margin:11px 22px;
+    background-color: rgba(128, 128, 128, 0.705);
+    backdrop-filter: blur(20px);
+    transition: all 1s ease-in-out 0s;
+}
